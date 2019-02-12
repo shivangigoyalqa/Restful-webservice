@@ -1,0 +1,100 @@
+.form1{
+	margin:30%;
+	margin-top:0px;
+	background-color:white;
+	padding-top:2%;
+/*	background: #73AD21;
+*/	border-radius:25px;
+}
+
+.form2{
+	font-size:35px;
+	/*padding:2%;*/
+}
+.form3{
+	font-size:20px;
+	padding:10px
+}
+body{
+background-image: url('giphy.gif');
+background-size: cover;
+}
+
+.button1{
+	border-radius: 12px;
+	color: green;
+  padding: 5;
+  padding-left:%;
+  padding-right:5%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+ 
+}
+	
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 40%;
+}
+.container {
+  padding: 2px 16px;
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+
+.signup{
+	display:block;
+
+	margin-left:auto;
+	margin-right:auto;
+	width:250px;
+	height: 80px;
+}
+
+.header1{
+	
+	color: white;
+	margin: 0px;
+}
+.img1 {
+  border-radius: 50%;
+  width:60px;
+  height:60px
+
+}
+
+.button2{
+	border-radius: 12px;
+	color: green;
+  
+ 
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+ 
+}
+.footer {
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   height:60px;
+   background-color:green;
+   color: black;
+   text-align: center;
+}
+ul {
+    list-style-type: none;
+    margin: 0px 170px;
+    padding: 10;
+    overflow: hidden;
+   
+}
+
+li {
+    float:left ;
+    }

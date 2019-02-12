@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+ <link rel="stylesheet" href="style1.css">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+</head>
+<body>
+<img src="img1.PNG" alt="title image" style="width:100%">
+    </br></br>
+    <center>
+       <h1 style="color:white;">Home Page</h1>
+    
+	 <button onclick = "location.href = 'rest/hello/viewall'">View All Comments</button>
+     <button onclick = "location.href = 'rest/hello/YourComments'">View Your Comments</button>
+     
+     <button onclick = openForm()>Add Comment</button>
+      <button onclick = "location.href = 'index.html'">Start Page</button>
+      <br><br>
+     <form action="rest/hello/AddComment" method="post" id="myForm" style="display: none;">
+    
+    
+     <label>Comment:</label><br>
+     <textarea rows="4" cols="50" name="comment"></textarea>
+     <input type="Submit" value = "Add" class="btn btn-info">
+     
+     </form>
+     </center>
+     <script>
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+</script>
+<footer>
+<div class="footer" style="margin-bottom:0px;position:fixed">
+	<center>
+  <p>@Blogger union private limited&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+</center>
+</div>
+</footer>
+</body>
+</html>

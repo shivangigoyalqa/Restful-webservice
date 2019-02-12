@@ -1,0 +1,69 @@
+label{
+	font-size:200%;
+	
+}
+body{
+	background-image: url("giphy.gif");
+	width:100%;
+}
+form{
+	background-image: url("back.jpg");
+	width:80%;
+}
+.signup{
+	display:block;
+
+	margin-left:auto;
+	margin-right:auto;
+	width:25%;
+	height: 8%px;
+}
+
+.button2{
+	border-radius: 12px;
+	color: green;
+   width:8%;
+   
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+ 
+}
+.img1 {
+  
+  width:8%;
+  height:20%%;
+
+}
+.footer {
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   height:50px;
+   background-color:green;
+   color: black;
+   text-align: center;
+}
+ul {
+    list-style-type: none;
+    margin: 0px 170px;
+    padding: 10;
+    overflow: hidden;
+   
+}
+
+li {
+    float:left ;
+    }
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 40%;
+}
+.container {
+  padding: 2px 16px;
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
